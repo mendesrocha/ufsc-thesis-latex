@@ -99,10 +99,10 @@
     \ttfamily%
     \begin{minipage}[b][][t]{\textwidth}
       \indent\ufscthesis@inverter{\imprimirautor} \newline%
-      \indent~\imprimirtitulo~:~/ \imprimirautor ; orientador, \imprimirorientador%
+      \indent~\imprimirtitulo~/ \imprimirautor ; orientador, \imprimirorientador%
       \ifnotempty{\imprimircoorientador}{~; co-orientador, \imprimircoorientador}.~-~\imprimirlocal~\the\year. \newline%
       \indent~\pageref{LastPage} p. \newline \newline%
-      \indent- \imprimirinstituicao, \imprimircentro. \imprimirprograma. \newline \newline%
+      \indent\imprimirtipotrabalho - \imprimirinstituicao, \imprimircentro. \imprimirprograma. \newline \newline%
       \indent Inclui Refer\^{e}ncias \newline \newline%
       \indent \imprimirassuntos
       \Roman{ufscthesis@indiceficha}. \ufscthesis@inverter{\imprimirorientador}. \stepcounter{ufscthesis@indiceficha}
